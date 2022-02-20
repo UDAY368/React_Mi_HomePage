@@ -8,7 +8,7 @@
 .starProdSection >div:last-child{
     display: flex;
     flex-wrap: wrap;
-    width: 46%;
+    width: 41%;
 }
 
 .starProdSection img{

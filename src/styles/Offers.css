@@ -7,7 +7,7 @@
 
 .offerSection img{
     margin: 0 1vmax;
-    transition: all 0.5sec ease-out;
+    transition: all 0.4sec ease-out;
 }
 
 .offerSection img:hover{

@@ -1,11 +1,11 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+import '../styles/Slider.css';
 // // import 'bootstrap/dist/css/bootstrap.min.css'; instead of this add the bootstrap css in the index.html
 
 function Slider({start}) {
   return (
-    <Carousel fade>
-        
+    <Carousel fade id='Slider'>
         {start.map((item,index) =>(
             <Carousel.Item key={index}>
                 <img
