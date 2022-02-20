@@ -10,6 +10,7 @@ import Heading from './components/Heading';
 import StarProducts from './components/StarProducts';
 import HotAccessoriesMenu from './components/HotAccessoriesMenu';
 import HotAccessories from './components/HotAccessories';
+import ProductReviews from './components/ProductReviews';
 
 
 
@@ -43,8 +44,9 @@ function App() {
         <Route exact path = "/mobiles">
           <HotAccessories mobilesData={data.hotAccessories.mobileAccessories}  mobilesCover = {data.hotAccessoriesCover.mobileAccessories}/>
         </Route>
-      
-
+        <Heading text = "PRODUCT REVIEWS"/>
+        <ProductReviews productReviewData={data.productReviews}/>
+        
     </Router>
   );
 }
