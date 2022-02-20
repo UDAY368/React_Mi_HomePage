@@ -1,0 +1,36 @@
+.VideoCard{
+  margin-right: 1vmax;
+  padding: 2vmax 0;
+  width: 30vmax;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.VideoCard > a{
+  padding: 2.5vmax;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 100%;
+  background-color: #a6919154;
+  color: white;
+}
+
+.VideoCard > a > svg{
+  fill: rgba(226, 225, 225);
+}
+
+.VideoCard:hover a{
+  background-color: rgba(187, 192, 196, 0.651);
+}
+
+.VideoCard > p{
+  color: white;
+  margin: 1vmax 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

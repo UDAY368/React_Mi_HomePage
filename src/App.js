@@ -11,6 +11,7 @@ import StarProducts from './components/StarProducts';
 import HotAccessoriesMenu from './components/HotAccessoriesMenu';
 import HotAccessories from './components/HotAccessories';
 import ProductReviews from './components/ProductReviews';
+import Videos from './components/Videos';
 
 
 
@@ -46,7 +47,8 @@ function App() {
         </Route>
         <Heading text = "PRODUCT REVIEWS"/>
         <ProductReviews productReviewData={data.productReviews}/>
-        
+        <Heading text = "VIDEOS"/>
+        <Videos videosData = {data.videos}/>
     </Router>
   );
 }
