@@ -1,0 +1,20 @@
+.starProdSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto;
+}
+
+.starProdSection >div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+}
+
+.starProdSection img{
+    transition: all 0.4s ease-out;
+}
+
+.starProdSection img:hover{
+    box-shadow: 6px 6px 15px rgba(54, 52, 52, 0.37);
+}
