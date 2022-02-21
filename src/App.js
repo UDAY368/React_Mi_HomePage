@@ -13,6 +13,7 @@ import HotAccessories from './components/HotAccessories';
 import ProductReviews from './components/ProductReviews';
 import Videos from './components/Videos';
 import Banner from './components/Banner';
+import Footer from './components/Footer';
 
 
 
@@ -52,6 +53,7 @@ function App() {
         <Videos videosData = {data.videos}/>
         <Heading text = "IN THE PRESS"/>
         <Banner bannerData={data.banner.end}/>
+        <Footer />
     </Router>
   );
 }
