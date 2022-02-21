@@ -1,0 +1,7 @@
+.NavOptions{
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 50px;
+}

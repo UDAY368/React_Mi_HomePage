@@ -14,15 +14,21 @@ import ProductReviews from './components/ProductReviews';
 import Videos from './components/Videos';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
+import NavOptions from './components/NavOptions';
 
 
 
 function App() {
+  console.log(data.accessories)
   return (
     <Router>
       <PreNavbar />
       <Navbar />
-      
+
+      <NavOptions miPhonesData = {data.miPhones} redmiPhonesData ={data.redmiPhones} tvData ={data.tv}
+      laptopData = {data.laptop} fitnessAndLifeStyleData = {data.fitnessAndLifeStyle} homeData={data.home}
+      audioData = {data.audio} accessoriesData = {data.accessories}  />
+
       <Slider start={data.banner.start} />
       <Offers offerData = {data.offer}/>
       <Heading text = "START PRODUCTS"/>
