@@ -22,6 +22,7 @@ function App() {
     <Router>
       <PreNavbar />
       <Navbar />
+      
       <Slider start={data.banner.start} />
       <Offers offerData = {data.offer}/>
       <Heading text = "START PRODUCTS"/>
@@ -53,7 +54,7 @@ function App() {
         <Videos videosData = {data.videos}/>
         <Heading text = "IN THE PRESS"/>
         <Banner bannerData={data.banner.end}/>
-        <Footer />
+        <Footer footerData = {data.footer} />
     </Router>
   );
 }
