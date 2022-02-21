@@ -1,0 +1,29 @@
+#bannerDesc{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding : 9vmax 0;
+}
+
+#bannerDesc h3{
+  font-size: 34px;
+  font-family: 'ProximaNova',Arial,Sans-serif;
+  margin-bottom: 2vmax;
+}
+
+#bannerDesc p{
+  font-size: 1.25vmax;
+  margin: 0;
+}
+
+#bannerDesc u{
+  cursor: pointer;
+}
+
+#bannerDesc u:hover{
+  text-decoration: underline;
+  color: rgb(82, 82, 226);
+}
+

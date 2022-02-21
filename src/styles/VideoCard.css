@@ -10,11 +10,16 @@
   background: no-repeat;
   background-size: cover;
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.VideoCard:hover{
+  transform: translateY(-0.4vmax);
+  box-shadow: 0px 6px 15px rgba(54, 52, 52, 0.37);
 }
 
 .VideoCard > a{
   padding: 2.5vmax;
-  transition: all 0.5s;
   border: none;
   border-radius: 100%;
   background-color: #a6919154;
@@ -33,4 +38,5 @@
   color: white;
   margin: 1vmax 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2vmax;
 }
