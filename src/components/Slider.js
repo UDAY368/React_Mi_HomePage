@@ -5,7 +5,7 @@ import '../styles/Slider.css';
 
 function Slider({start}) {
   return (
-    <Carousel fade id='Slider' interval={2000}>
+    <Carousel fade interval={2000}>
         {start.map((item,index) =>(
             <Carousel.Item key={index}>
                 <img

@@ -1,8 +1,11 @@
 .NavCard{
   width: 10vmax;
-  text-align: center;
   cursor: pointer;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .NavCard >img{
@@ -11,6 +14,7 @@
 
 .NavCard p{
   margin: 0;
+  text-align: center;
 }
 
 .NavCard span{
